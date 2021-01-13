@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+   <header class="header">
+       <div class="contenedor contenido-header">
+           <h1>Rock & EDM Festival</h1>
+
+           <nav class="navegacion-principal">
+                <a href="#lineup">Line up</a>
+                <a href="#galery">Galery</a>
+                <a href="#tickets">Tickets</a>
+           </nav>
+       </div>
+   </header>
+
+   <div class="video">
+       <div class="overlay">
+           <div class="contenedor contenido-video">
+            <h2>
+                Rock & EDM Festival
+                <span>Julio 21, Los Angeles, California</span>
+            </h2>
+           </div>
+       </div>
+       <video controls autoplay muted loop>
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+       </video>
+   </div>
+
+   <div class="sobre-festival contenedor">
+       <div class="imagen">
+            <img src="build/img/imagen_vocalista.jpg" alt="imagen vocalista">
+       </div>
+       <div class="contenido-festival">
+            <h2>Rock & EDM Festival</h2>
+            <p class="fecha">Julio 2021, Los Angeles, CA</p>
+            <p class="texto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum vero ab assumenda quisquam molestiae ratione officia 
+            adipisci, repellat placeat saepe eligendi quidem officiis alias laborum a sint libero quae eveniet!</p>
+       </div>
+   </div>
+
+   <section id="lineup" class="lineup">
+       <h3>Line up</h3>
+       <p class="dia">Friday 21</p>
+       <div class="escenarios-contenedor contenedor">
+           <div class="escenarios rock bg-amarrillo">
+               <p class="nombre-escenario">Rock Stage</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>Metallica</span></li>
+                    <li>22:00 | <span>Peart Jam</span></li>
+                    <li>20:00 | <span>Red Hot Chili Peppers</span></li>
+                    <li>19:00 | <span>30 seconds to mars</span></li>
+                    <li>19:00 | <span>Kings of lion</span></li>
+                    <li>17:00 | <span>The national</span></li>
+                </ul>
+           </div>
+           <div class="escenarios edm bg-verde">
+                <p class="nombre-escenario">EDM Stage</p>
+                <ul class="calendario">
+                    <li>24:00 | <span>DeadMau5</span></li>
+                    <li>22:00 | <span>San Holo</span></li>
+                    <li>20:00 | <span>Deorro</span></li>
+                    <li>19:00 | <span>Hardwell</span></li>
+                    <li>19:00 | <span>The Chainsmokers</span></li>
+                    <li>17:00 | <span>Galantis</span></li>
+                </ul>
+        </div>
+       </div>
+       <p class="dia">Saturday 22</p>
+       <div class="escenarios-contenedor contenedor">
+        <div class="escenarios rock bg-verde">
+            <p class="nombre-escenario">Rock Stage</p>
+             <ul class="calendario">
+                 <li>24:00 | <span>The Killers</span></li>
+                 <li>22:00 | <span>Foster the people</span></li>
+                 <li>20:00 | <span>alt-j</span></li>
+                 <li>19:00 | <span>The Vaccines</span></li>
+                 <li>19:00 | <span>The Smiths</span></li>
+                 <li>17:00 | <span>Ths Pixies</span></li>
+             </ul>
+        </div>
+        <div class="escenarios edm bg-amarrillo">
+             <p class="nombre-escenario">EDM Stage</p>
+             <ul class="calendario">
+                 <li>24:00 | <span>Above & Beyond</span></li>
+                 <li>22:00 | <span>Armin Van Buuren</span></li>
+                 <li>20:00 | <span>Paul Van Dyke</span></li>
+                 <li>19:00 | <span>Tiesto</span></li>
+                 <li>19:00 | <span>Maala</span></li>
+                 <li>17:00 | <span>Dimitri Vegas</span></li>
+             </ul>
+     </div>
+    </div>
+    </section>
+
+
+    <section id="galery" class="galeria contenedor">
+        <h3>Gallery</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    
+    <section id="tickets" class="boletos bg-verde">
+        <h3>Tickets</h3>
+
+        <div class="contenedor-boletos contenedor">
+            <div class="basico plan">
+                <p>Basic Plan</p>
+
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Includes
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Access to all stage
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Drinks and Food
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $100
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+            <div class="premium plan">
+                <p>Vip Plan</p>
+                <table class="pase">
+                    <thead>
+                        <tr>
+                            <th>
+                                Includes
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                Access to all stage
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Drinks and Food
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                Shirt of the Event
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                VIP Access
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                $180
+                            </td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"> 
+        <p>Rock & EDM Festival</p>
+    </footer>
+
+    <script src="build/js/bundle.min.js"></script>
+</body>
+</html>
